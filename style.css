@@ -161,6 +161,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
+
 /* Column No Gutters */
 
 .row-no-gutters{
@@ -174,7 +180,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#bloc-13 p{
+#bloc-16 p{
 	font-size: 17px;
 	line-height: 29px;
 }
@@ -367,6 +373,22 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 
 
@@ -745,9 +767,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .terms{
 	color:#000000!important;
 	font-family:"Montserrat";
+	padding:0px 40px 0px 40px;
 }
 .terms_text{
 	color:rgba(0,0,0,1.0)!important;
+	padding:10px 40px 40px 40px;
+}
+.img_a{
+	margin-top:-80px;
 }
 
 /* = Colour
